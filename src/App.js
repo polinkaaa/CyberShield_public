@@ -1,12 +1,12 @@
 import React from "react";
-import {BrowserRouter} from 'react-router-dom'
+import Main from './pages/Main'
 import AppRouter from "./components/AppRouter";
 
 const App = () => {
     return (
-        <BrowserRouter>
+        <Main>
             <AppRouter />
-        </BrowserRouter>
+        </Main>
     )
 }
 
