@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "../components/NavBar";
+import NavBar from "./components/NavBar";
 import { useNavigate } from "react-router-dom"
 import {observer} from "mobx-react-lite"
 import { CHAT_ROUTE, TASKS_ROUTE, THEORY_ROUTE } from "./utils/consts";
